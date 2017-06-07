@@ -2,8 +2,8 @@
 Changelog for package rodi_robot
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.1 (2017-06-06)
+------------------
 * rodi_robot: Reduce the rospy rate to 1 Hz
   The rospy rate for the main loop is 2 Hz, but RoDI sometimes can't cope
   with that since the sonar values are queried on each iteration, causing
